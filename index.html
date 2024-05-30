@@ -11,18 +11,23 @@
    
     <style>
         body {
-
+           
             background-color: pink;        }
-
+        
 
  
     </style>
     <script>
         setTimeout(() => {
             alert("ola vô, estou aqui");
-        },2000)
-       
+            dc()
+        }, 2000)
+        function dc() {
+            
+            document.body.style.backgroundColor = 'blue';
+        }
     </script>
+    
 
 </body>
 
