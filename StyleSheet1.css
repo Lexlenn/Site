@@ -12,8 +12,7 @@ button {
     background-image: url('img/buttons_PNG44.png');
     border: none;
     background-size: cover;
-    padding: 10px 25px;
+    padding: 20px 57px;
     background-color: transparent;
-   
-
+    cursor:pointer
 }
