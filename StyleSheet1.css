@@ -1,10 +1,19 @@
 ﻿body
 {
 }
+.container {
+    display:flex;
+    height:100vh;
+    align-items:center;
+    justify-content:center;
+}
+
 button {
     background-image: url('img/buttons_PNG44.png');
     border: none;
     background-size: cover;
     padding: 10px 25px;
     background-color: transparent;
+   
+
 }
